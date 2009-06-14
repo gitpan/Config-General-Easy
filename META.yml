@@ -1,0 +1,19 @@
+---
+name: Config-General-Easy
+version: 0.1
+author:
+  - 'Jacquelin Charbonnel <jacquelin.charbonnel at math.cnrs.fr>'
+abstract: Easy use of Config::General for simple ordinary configuration files
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+provides:
+  Config::General::Easy:
+    file: lib/Config/General/Easy.pm
+    version: 0.1
+generated_by: Module::Build version 0.33
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
